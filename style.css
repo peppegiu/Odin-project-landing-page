@@ -79,3 +79,66 @@ main .left {
 main .right img {
     width: 400px;
 }
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 76px;
+    height: 12em;
+    margin-top: 56px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.list .group .box {
+    border-width: 10px !important;
+    border-style: solid !important;
+    border-radius: 10px !important;
+    border-color: #3882f6 !important;
+    width: 200px;
+    height: 300px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+section .title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    font-family: Roboto;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 90px;
+}
+
+.second #quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.second .signature {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+}
