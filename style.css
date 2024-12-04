@@ -32,7 +32,7 @@ header .content ul {
     align-items: center;
 }
 
-a {
+a, .content-text {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -40,4 +40,42 @@ a {
 
 a, p, h1, button {
     font-family: Roboto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 60px 30px;
+    padding-bottom: 80px;
+    gap: 15px;
+    
+}
+
+main .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+main .left {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+}
+
+#sign-up {
+    background-color: #3882f6;
+    font-family: Roboto;
+    color: #e5e7eb;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+main .right img {
+    width: 400px;
 }
